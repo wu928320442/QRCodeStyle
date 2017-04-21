@@ -1,4 +1,4 @@
-![](images/normal.png)
+![](images/normal.png =200x200)
 ![](images/logo.png)
 ![](images/logo_zoom.png)
 ![](images/logo_circle.png) ![](images/logo_circle_space.png)
