@@ -1,10 +1,10 @@
 ![](images/1.jpg)
 ![](images/2.jpg)
-# A very simple and easy to use qr code style generation library
+# library introduce
+* A very simple and easy to use qr code style generation library
+* Free combination of qr code style
 
-## Free combination of qr code style
-
-## for example
+# Use example
 
 * Set the space of the outer circle of the logo
 ```java
@@ -18,7 +18,7 @@
                 .build().get();
         logo_iv.setImageBitmap(targetBitmap);
 ```
-* set mask
+* Set Mask
 ```java
         Bitmap mask = BitmapFactory.decodeResource(getResources(), R.mipmap.logo);
         ImageView logo_iv = (ImageView) findViewById(R.id.mask_iv);
@@ -28,7 +28,7 @@
                 .build().get();
         logo_iv.setImageBitmap(targetBitmap);
 ```
-* set bg
+* Set Bg
 ```java
         Bitmap bg = BitmapFactory.decodeResource(getResources(), R.mipmap.bg);
         ImageView logo_iv = (ImageView) findViewById(R.id.bg_iv);
@@ -39,8 +39,8 @@
         logo_iv.setImageBitmap(targetBitmap);
 ```
 
-### All examples are shown in [MainActivity](QRCodeStyle/app/src/main/java/com/wjj/easy/qrcodestyleHelper/MainActivity.java), for reference
+* All examples are shown in [MainActivity](https://github.com/wu928320442/QRCodeStyle/blob/master/app/src/main/java/com/wjj/easy/qrcodestyleHelper/MainActivity.java), for reference
 
 # About author
-* ** QQ：**928320442
-* **Email:**wujiajun311@gmail.com
+* **QQ** 928320442
+* **Email**wujiajun311@gmail.com
