@@ -41,6 +41,10 @@
 
 * All examples are shown in [MainActivity](https://github.com/wu928320442/QRCodeStyle/blob/master/app/src/main/java/com/wjj/easy/qrcodestyleHelper/MainActivity.java), for reference
 
+# Import library use Gradle
+```gradle
+compile 'com.wjj.easy:qrcodestyle:1.0.0'
+```
 # About author
 * **QQ** 928320442
 * **Email**wujiajun311@gmail.com
